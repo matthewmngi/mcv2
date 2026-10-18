@@ -1,0 +1,11 @@
+- build tokenizer
+- rebuild encoder-decoder architecture w/ positional embeddings
+- figure out model size
+- integrate architectures together
+- pre-train (publishable baseline)
+    - `wiki-text`: teach model basic English
+    - `HuggingFaceTB/everyday-conversations-llama3.1-2k`: teach model basic conversation
+    - `starhopp3r/TinyChat`: more simple conversations
+- post-training (maybe)
+    - `HuggingFaceH4/ultrachat_200k`: longer, more complex conversation
+    - `databricks/databricks-dolly-15k`: instruction following
